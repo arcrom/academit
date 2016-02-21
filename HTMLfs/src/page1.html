@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Окно регистрации</h1>
+<form>
+
+    <label>Имя:<input type="text" name="userName"></label>
+    <br>
+
+    <label>Фалилия:<input type="text" name="userSurname"></label>
+    <hr>
+
+    <div><b>Пол</b>
+        <input type="radio" name="sex" id="man">Мужчина
+        <input type="radio" name="sex" id="woman">Женщина
+        <input type="radio" name="sex" id="any">Другое
+    </div>
+    <hr>
+
+    <div>Введите вашу дату рождения: <input type="date" name="calendar">
+    </div>
+    <hr>
+
+    <label>О себе:<br><textarea name="userHistory" rows="5" cols="20"></textarea></label></div>
+    <hr>
+
+    <div><b>У вас есть домашнее животное?</b><br>
+        <select name="selectAnimal">
+            <option selected value="a0">Нет</option>
+            <option value="a1">Кошка</option>
+            <option value="a2">Собака</option>
+            <option value="a3">Хорёк</option>
+            <option value="a4">Корова</option>
+        </select>
+    </div>
+    <hr>
+
+    <div><input type="submit" value="Зарегистрировать"></div>
+
+</form>
+
+<br><br><br>
+<hr>
+<hr>
+
+<form action="page2.html"><input class="forPage2" type="submit" value="Вторая страница"></form>
+</body>
+</html>
