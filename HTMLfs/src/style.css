@@ -1,0 +1,17 @@
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: large;
+
+}
+
+.forPage2 {
+    background-color: brown;
+    border-radius: 10px;
+}
+
+td {
+    text-align: center;
+}
